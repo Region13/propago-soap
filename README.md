@@ -33,7 +33,7 @@ The following versions of PHP are supported by this version.
 ## Documentation
 
 API has soap [documentation](http://test-api.mypropago.com/public/orderservice.asmx).
-
+A sample using this api is [included in sample.php](sample.php).
 ## Security
 
 If you discover any security related issues, please email webmaster@esc13.txed.net instead of using the issue tracker.
