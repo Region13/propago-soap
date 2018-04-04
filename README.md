@@ -5,7 +5,7 @@
 Via Composer
 
 ``` bash
-$ composer require esc13/propago-soap
+$ composer require Region13/propago-soap
 ```
 
 ## Requirements
