@@ -4,6 +4,21 @@
 
 Via Composer
 
+This package hasn't been uploaded to the packagist. You'll need to add
+it's location in the repositories section of your composer file.
+Edit your composer.json and add
+
+``` json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Region13/propago-soap.git"
+        }
+    ],
+```
+
+Then you'll be able to manage it via composer. 
+
 ``` bash
 $ composer require Region13/propago-soap
 ```
