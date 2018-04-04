@@ -2,6 +2,9 @@
 /*
  * Example Usage of this class
  */
+if(php_sapi_name() != 'cli'){
+	die("this can only be run through the command line");
+}
 date_default_timezone_set('UTC');
 include 'vendor/autoload.php';
 /*
@@ -9,8 +12,8 @@ include 'vendor/autoload.php';
  * Contact support@propago.com for access.
  */
 $credentials = new \PropagoSoap\Credentials();
-$credentials->setApiKey($myKey);
-$credentials->setCustomerName($myName);
+$credentials->setApiKey("test");
+$credentials->setCustomerName("test");
 /*
  * This request also needs an OrderSearch
  */

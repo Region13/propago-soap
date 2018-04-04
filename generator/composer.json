@@ -1,0 +1,9 @@
+{
+    "name": "dkilgo/generator",
+    "type": "project",
+    "require": {
+        "wsdl2phpgenerator/wsdl2phpgenerator": "3.4.*",
+        "monolog/monolog": "^1.23"
+    },
+    "license": "LGPL"
+}

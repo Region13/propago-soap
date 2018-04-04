@@ -1,0 +1,20 @@
+{
+    "name": "esc13/propago-soap",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Derak Kilgo",
+            "email": "derak.kilgo@esc13.txed.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-soap": "*"
+    },
+    "autoload":{
+        "psr-4":{
+            "PropagoSoap\\":"src/"
+        }
+    }
+}
